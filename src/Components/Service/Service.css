@@ -1,0 +1,32 @@
+.title{
+  margin-top: 60px;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Center-align text within the h1 */
+}
+
+.service-card-container{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-right: auto;
+    margin-left: auto;
+   /* display: grid;
+    grid-template-columns: repeat(3, auto);  Ensures 3 columns
+    padding: 50px;
+    gap: 100px;
+    max-width: 1200px;Adjust this value as needed
+    justify-content: center; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.service-card-item{
+  box-shadow: 10px 10px 15px 5px rgba(81, 81, 81, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.service-card-item:hover {
+  transform: scale(1.1); /* Scale up the div to 120% on hover */
+}

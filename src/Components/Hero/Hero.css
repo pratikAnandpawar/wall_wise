@@ -1,0 +1,13 @@
+.hero{
+    border-radius: 20px;
+    margin: 5% 2% 5% 2%;
+    height: 550px;
+}
+.hero-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-item{
+    padding: 50px 90px 50px 90px;
+}
